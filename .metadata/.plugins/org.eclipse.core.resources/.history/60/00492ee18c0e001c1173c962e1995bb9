@@ -1,0 +1,15 @@
+package com.root.portalEventos.servicos;
+
+import com.root.portalEventos.entidades.Evento;
+
+public class EventosService {
+	
+	public Evento save(Evento novoEvento) {
+		try {
+			
+		}catch (Exception e) {
+		System.out.println(e.getMessage());
+		}
+	}
+
+}

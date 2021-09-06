@@ -1,0 +1,13 @@
+package com.root.portalEventos;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PortalEventosApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PortalEventosApplication.class, args);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.root.portalEventos.entidades;
+
+public class Evento {
+
+}

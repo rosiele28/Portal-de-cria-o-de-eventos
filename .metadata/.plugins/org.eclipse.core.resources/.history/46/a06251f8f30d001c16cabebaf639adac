@@ -1,0 +1,12 @@
+package com.root.portalEventos.controladores;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EventoController {
+	@GetMapping("/")
+	public String index() {
+		return "Oi eu sou uma API nascendo.";
+	}
+}

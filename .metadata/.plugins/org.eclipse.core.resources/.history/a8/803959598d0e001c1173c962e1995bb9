@@ -1,0 +1,21 @@
+package com.root.portalEventos.servicos;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.root.portalEventos.entidades.Evento;
+import com.root.portalEventos.repositorios.EventoRepository;
+
+public class EventosService {
+	
+	@Autowired
+	private EventoRepository eventosRepository;
+	
+	public Evento save(Evento novoEvento) {
+		try { 
+			return eventosRepository.save(novoEvento);
+		}catch (Exception e) {
+		System.out.println(e.getMessage());
+		}
+	}
+
+}

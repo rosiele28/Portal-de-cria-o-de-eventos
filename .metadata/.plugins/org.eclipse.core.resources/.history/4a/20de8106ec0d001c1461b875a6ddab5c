@@ -1,0 +1,5 @@
+package com.root.portalEventos.repositorios;
+
+public interface UsuarioRepository {
+
+}

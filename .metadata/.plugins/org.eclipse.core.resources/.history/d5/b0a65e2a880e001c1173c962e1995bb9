@@ -1,0 +1,26 @@
+package com.root.portalEventos.controladores;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.root.portalEventos.entidades.Usuario;
+
+@RestController
+public class EventoController {
+
+	
+	@RestController
+	@RequestMapping(value = "/api")
+	public class UserResource {
+		
+		@GetMapping
+		public ResponseEntity<Usuario> findAll() {
+			Usuario u = new Usuario(null, "Rosiele", "71992994785", null, null);
+			return ResponseEntity.ok().body(u);
+			
+		}
+	}
+}

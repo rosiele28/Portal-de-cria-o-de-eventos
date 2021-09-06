@@ -1,0 +1,5 @@
+package com.root.portalEventos.servicos;
+
+public class UsuarioService {
+
+}

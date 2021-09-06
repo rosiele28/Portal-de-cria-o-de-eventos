@@ -1,0 +1,12 @@
+package com.root.portalEventos.controladores;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/")
+public class EventoController {
+	public String index() {
+		return "Oi eu sou uma API nascendo.";
+	}
+}
